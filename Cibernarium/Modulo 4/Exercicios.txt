@@ -1,0 +1,74 @@
+M4 – Estruturas Condicionais
+
+M4 – Exercício 1
+Modifique o exercício 1 do módulo 3. Um policial introduïdes les dades, o programa tem que mostrar o seguinte para tela:
+
+Se o usuário tiver 18 anos ou mais: "Nome Sobrenome, você é MAIOR"
+Se o usuário for menor de 18 anos: “Nome Sobrenome, você é MENOR DE IDADE”.
+
+M4 – Exercício 2
+Este programa exige a edição do usuário/ària, em função desta, mostrar uma das seguintes falhas na tela:
+
+Si té 5 anos ou menos: pré-escolar.
+Si té entre 6 e 11 anos: primária.
+Entre 12 e 15: ESO.
+Entre 16 e 17: Batxillerat.
+Se é a maior edição: FP ou Universitat.
+
+M4 – Exercício 3
+Uma escola de idiomas concede que futuros estudantes completam uma série de requisitos.
+
+Um ex-aluno/a é designado porque se for maior de idade e tiver um título universitário. Ou também se ele atribuiu uma porque se o ex-aluno/a está na idade adulta.
+O programa exige três dias para exibir e, no final, mostra se o ex-aluno/a é o beca ou não.
+
+M4 – Exercício 4 (Switch)
+O usuário/ària introduz um mês para a tela e troca uma chave entre os 12 meses de qualquer, o programa calcula os dias do mês e mostra o seguinte: Exemplo: Se o número introduzido for 1, você terá que parar por pantalla: “El mes de gener té 31 dies”
+
+M4 – Exercício 5
+É um programa que exige dois números a uma operadora(+,-,*,/).
+No final, o programa imprimiu para exibir o resultado da operação que continuou o operador variável.
+
+M4 – Exercício 6
+Para um programa que o usuário/ària exige no dia e no mês que vem, com esta informação o programa mostrado para a tela, de qual signo do zodíaco é.
+
+Áries-Áries (21.03 - 19.04)
+Taure-Tauro (20.04 - 20.05)
+Bessons-Géminis (21.05 – 20.06)
+Cranc-Câncer (21.06 – 22.07)
+Lleó-Leo (23.07 – 22.08)
+Verge-Virgem (23.08 - 22.09)
+Balança-Libra (23.09 – 22.10)
+Escorpí-Escorpião (23.10 – 21.11)
+Sagitário-Sagitário (22.11 - 21.12)
+Capricórnio-Capricórnio (22.12 - 19.01)
+Aquário-Aquário (20.01 – 18.02)
+Peixos-Piscis (19.02 – 20.03)
+
+M4 – Exercícios Extra 1
+Fez um programa que questiona o usuário/ària dos nomes entre qual nomeará dividendo e divisor respectivamente.
+O divisor terá que estar entre 2 e 7.
+Caso contrário, o programa terá que mostrar uma falha de erro.
+Se o divisor estiver correto (2-7) mostra na tela se o dividendo for múltiplo do divisor, ou não.
+
+M4 – Exercícios Extra 2
+Solicite ao usuário/ària um número entre 0 e 99 e mostre-o escrito em letras (pode ser em català ou castellà).
+Exemplo : 56 (cinquanta-sis) ou 56 (cincuenta y seis)
+
+M4 – Exercícios Extra 3
+Esta linha de código:
+int numRandom = (int)(Math.random() * 3) + 1;
+Retorna um número entre o 1 e o 3 de forma aleatória.
+Escreva um programa que permita jogar pedra, papel ou tisora ​​com o ordenador.
+Para isso, o coordenador terá que gerar um nome aleatório entre 1 e 3 que representa uma pedra, papel ou tesoura, respectivamente, e o usuário/ària terá que responder ao seu rasgado com um nome entre o 1 e o 3 depois de mostrar la següent pantalla:
+Juguem a pedra, papel o tisora:
+
+Pedra
+Papel
+Tisora
+Escolha (1-3):
+Caso o usuário indique um nome diferente do solicitado, deverá aparecer a seguinte mensagem:
+“Eu entendo que você não quer jogar. Tchau"
+Caso contrário, indique o vencedor da seguinte forma:
+Eu xxx e você xxx. Ele ganhou!, ou Tu ganhou!
+Conforme o caso.
+Exemplo: “Eu papel e você tesoura. Você ganhou!"
