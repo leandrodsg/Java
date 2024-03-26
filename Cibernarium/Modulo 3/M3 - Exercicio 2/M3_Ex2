@@ -1,0 +1,43 @@
+/*
+M3 – Exercício 2
+Faça um programa que peça ao usuário dois números inteiros. 
+Ao final o programa imprime a seguinte mensagem na tela:
+⦁ O resultado da soma é: “valor”
+⦁ O resultado da subtração é: “valor”
+⦁ O resultado da multiplicação é: “valor”
+⦁ O resultado da divisão é: “valor”.
+*/
+package M3_Ex2_Oriol_Tinoco;
+import java.util.Scanner;
+
+public class M3_Ex2_Leandro_Gusmao {
+
+    public static void main(String[] args) {
+        System.out.println("M3 – Exercici 2");
+        System.out.println("");
+        
+        int num1 = 0;
+        int num2 = 0;
+        int soma = 0;
+        int subt = 0;
+        int mult = 0;
+        float divi = 0f;
+        
+        Scanner input = new Scanner(System.in);
+        System.out.println("Introduce el primer número: ");
+        num1 = input.nextInt();
+        System.out.println("Introduce el segundo número: ");
+        num2 = input.nextInt();
+        
+        soma = num1 + num2;
+        subt = num1 - num2;
+        mult = num1 * num2;
+        divi = (float)num1/num2;
+        
+        System.out.println("El resultado de la suma es: " +soma);
+        System.out.println("El resultado de la resta es: " +subt);
+        System.out.println("El resultado de la multiplicación es: " +mult);
+        System.out.printf("El resultado de la división es: %.2f", divi);
+        input.close();
+    }
+}
