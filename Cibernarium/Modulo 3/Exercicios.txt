@@ -1,0 +1,32 @@
+https://itacademy.barcelonactiva.cat/
+
+M3 – Métodos de Entrada
+M3 – Exercício 1
+Faça um programa que ele exige do usuário/ària: El nom, el cognom i l'edat.
+Um policial que o usuário/ària acabou de apresentar aos pais, estes vão mostrar para a tela.
+
+M3 – Exercício 2
+Faça um programa que exija dois sensores de números para o usuário/ària. No final, o programa foi impresso para exibir a seguinte falha:
+
+O resultado da soma é: “valor”
+O resultado da restauração é: “valor”
+O resultado da multiplicação é: “valor”
+O resultado da divisão é: “valor”.
+M3 – Exercício 3
+O programa exige que o usuário/ària introduza 3 notas e o programa mostre o número das 3 notas por tela.
+Nota: As notas introduzidas pelo usuário/ària são números sensíveis, mas o número pode ter decimais.
+
+M3 – Exercícios Extra 1
+Escreva um programa Java que digite um nome por tecla e obtenha e mostre para a tela o duplo e o triplo deste número.
+
+M3 – Exercícios Extra 2
+NOTA Para este exercício são necessários alguns ajustes do seguinte módulo (Estruturas condicionais).
+Escreva um programa Java que solicite para exibir um nome enter, e se for menor que 10, atribua uma variável de tipo int, chamada varInt. Se não for assim, você terá que atribuir à variável varInt o número 1. (Utiliza para isso o operador condicional ? :) Depois, imprima a tabela de multiplicador desta variável.
+
+M3 – Exercícios Extra 3
+Escreva um programa Java que calcula os litros de pintura necessários para pintar uma parede retangular.
+Um litro de cobreix aproximado, 12 m² em uma só mão. Crie uma cobertura anomenada constanteLitro para guardar o dado de cobertura da pintura (12 m²)
+Hauràs de exigir ao usuário/ària:
+
+A altura e altura da parede (multiplicando você saberá a área da parede)
+O nome do homem deve ser aplicado. Mostra na tela os litros de pintura que você usa.
